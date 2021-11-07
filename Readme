@@ -1,1 +1,18 @@
-Test
+# IBM SpaceY Capstone Project
+-----
+
+In this capstone project all the labs accomplished in the IBM Data Science specialization are put to the test in an real-world application.
+
+The premise/objective is to predict the outcome of SpaceX's landing since the successful landing of a rocket is the most influential variable on the price of a bid when there is a public contract up to grabs.
+
+The frist step of the project was to collect all the data via two methods, webscrapping the wikipedia page for SpaceX launches and outcomes and the second directly via SpaceX's open API.
+
+In the second step basic data wrangling and data exploration was done to understand the structure of the data, eliminate any errors in the data and prep work for analysis.
+
+In the third step we started working with the data and finding what variables we had had a correlation with the outcome of the launches like the orbit to launch, the weight of the payload, the rocket model, and the destination landing zone.
+
+In the fourth step to understand if our assumptions are correct we visualize the data on a plotly express web dashboard to see any obvious category and correlation of payload and model rocket.
+
+Finally we normalizaed our assumed features, optimized hyperparameters and trained a support vector machine, logistic regression, decision tree and KNN models to see which would provide us the best accuracy.
+
+The final conclusion was that with an accuracy with 94% SVM was the best algorithm to predict the outcome of landings. One of the main take aways was the strong correlation of lower payload mass launched having the tendency to have a more successful landing outcome.
